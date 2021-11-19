@@ -8,7 +8,7 @@ import "./TrancheIDService.sol";
 import "./roles/DependsOnTrancheIDService.sol";
 import "./roles/DependsOnStrategyRegistry.sol";
 import "./roles/DependsOnFundTransferer.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "./sv/ReentrancyGuard.sol";
 
 /// Express an amount of token held in yield farming strategy as an ERC721
 contract Tranche is
